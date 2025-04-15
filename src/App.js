@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+// Task 3,6,9,12,15,18: Import the components here  
+import Header from './components/Header';
+import Body from './components/Body';
+import About from './components/About';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Footer from './components/Footer';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="app" className="App">
+      <Header />
+      <Body />
+      <About />
+      <Projects />
+      <Skills />
+      <Footer />
     </div>
   );
 }
 
 export default App;
+
