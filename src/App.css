@@ -102,7 +102,7 @@ a, a:active, a:hover {
 }
 
 .body-img {
-  width: 100%;
+  width: 200%;
   transform: scale(.95);
   border-radius: 50%;
 }
@@ -145,12 +145,13 @@ a, a:active, a:hover {
 
 /* About Section  */
 .about {
-  height: 72vh;
+  height: auto;
   width: 100%;
   padding: 4rem 5rem;
   display: flex;
   flex-direction: column;
   text-align: center;
+  background: lightblue;
 }
 
 .about-heading {  
@@ -185,7 +186,7 @@ a, a:active, a:hover {
   position: relative;
   display: inline-block;
   border-radius: 60%;
-  border: 1vh solid #cbd5e1;
+  border: 1vh solid lightblue;
 }
 .about .about-img .about-img-wrapper img {
   width: 60%;
@@ -194,8 +195,8 @@ a, a:active, a:hover {
 
 /* Projects section */
 .projects {
-  background-color: #e9d5a1;
-  height: 65vh;
+  background-color: seagreen;
+  height: auto;
   margin-top: -2rem;
 }
 .heading {
@@ -500,7 +501,7 @@ a, a:active, a:hover {
 /* Skills section */
 .skills {
   background-color: white;
-  height: 50vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;

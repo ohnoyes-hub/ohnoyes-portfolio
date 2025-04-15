@@ -1,6 +1,6 @@
 // Importing the GitHub and LinkedIn icons rom react-icons/fa and an avatar image from the assets folder
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import Avatar from '../assets/Software.png';
+import Avatar from '../assets/Bonfire.png';
 
 // Defining the Body functional component
 const Body = () => {
