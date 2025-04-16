@@ -1,4 +1,5 @@
 import {FaSteam, FaDiscord, FaWhatsapp} from 'react-icons/fa';
+import { FaBluesky } from "react-icons/fa6";
 
 const Footer = () => {
     return (
@@ -11,10 +12,9 @@ const Footer = () => {
             <div>
                 <h1>Socials</h1>
                 <div className="social-icons">
-                    <a href="https://www.educative.io/"><i><FaSteam /></i></a>
+                    <a href="https://steamcommunity.com/id/_ohnoyes/"><i><FaSteam /></i></a>
                     <a href="https://www.educative.io/"><i><FaDiscord /></i></a>
-                    <a href="https://www.educative.io/"><i><FaWhatsapp /></i></a>
-                    {/* <a href="https://www.educative.io/"><i><FaBluesky /></i></a> */}
+                    <a href="https://bsky.app/profile/ohnoyes.bsky.social"><i><FaBluesky /></i></a>
                 </div>
             </div>
         </footer>

@@ -207,10 +207,12 @@ a, a:active, a:hover {
 }
 .projects-container {
   padding: 3rem;
+  size: auto;
 }
 .projects-container .project {
   position: relative;
-  height: 38vh;
+  min-height: 300px;
+  height: auto;
   border: 0.3rem solid black;
   border-radius: 20px;
   margin: 0 1rem 0 0;
@@ -218,6 +220,7 @@ a, a:active, a:hover {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  flex-grow: 1;
 }
 .projects-container .project .content {
   position: relative;
@@ -225,12 +228,13 @@ a, a:active, a:hover {
   flex-direction: column;
   justify-content: center;
   margin-top: 1.2rem;
-  height: 85%;
+  height: auto;
   border-radius: 15px;
   transition: all 0.5s;
   cursor: auto;
   overflow: hidden;
 }
+
 .content:hover {
   transform: translate(0, -10px);
 }
@@ -242,7 +246,9 @@ a, a:active, a:hover {
 .projects-container .project .content img{
   display: block;
   margin: 0 auto;
-  width: 31%;
+  width: 100%;
+  max-width: 100px;
+  height: auto;
 }
 .name {
   color: #2b2d42;
@@ -295,6 +301,7 @@ a, a:active, a:hover {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    overflow: visible;
   }
   .projects-container .project .content {
     position: relative;
@@ -306,7 +313,7 @@ a, a:active, a:hover {
     border-radius: 15px;
     transition: all 0.5s;
     cursor: auto;
-    overflow: hidden;
+    overflow: visible;
   }
   .projects-container .project .content img{
     display: block;
@@ -546,6 +553,7 @@ a, a:active, a:hover {
   text-align: center;
   text-shadow: 2px 3px 4px #000000;
   text-transform: uppercase;
+  height: auto;
 }
 
 .skill-cards:hover {
