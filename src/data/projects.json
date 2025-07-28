@@ -1,26 +1,11 @@
 [
     {
-        "name" : "Project 1",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "link" : "https://github.com/"
+        "name" : "Typelevel Jobsboard",
+        "description" : "A fullstack jobs board web application built with Typelevel and Scala3. The job board lets users post jobs, filter jobs, and integrates with Stripe(demo payments) to post jobs. Follows from RocktheJVM course Typelevel Rite of Passage. ",
+        "link" : "https://jobs-staging.ohnoyes.com"
     },
     {
         "name" : "Project 2",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "link" : "https://github.com/"
-    },
-    {
-        "name" : "Project 3",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "link" : "https://github.com/"
-    },
-    {
-        "name" : "Project 4",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "link" : "https://github.com/"
-    },
-    {
-        "name" : "Project 5",
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "link" : "https://github.com/"
     }

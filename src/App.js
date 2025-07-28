@@ -1,5 +1,4 @@
 import './App.css';
-// Task 3,6,9,12,15,18: Import the components here  
 import Header from './components/Header';
 import Body from './components/Body';
 import About from './components/About';
